@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Urae_Nium";
+  src: url("../fonts/urae_nium/urae_nium.ttf"); }
+
+@font-face {
+  font-family: "Run";
+  src: url("../fonts/run_2/Run! Demo.otf"); }
+
+body {
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.Encabezado {
+  width: 99vw;
+  height: 6em;
+  text-align: center;
+  background-color: black; }
+  .Encabezado__Nombre {
+    font-family: "Urae_Nium",italic;
+    color: white;
+    font-size: 6em; }
+
+.Barra {
+  width: 99vw;
+  margin: auto;
+  background-color: #F9F9F9; }
+
+.Posicion {
+  background-color: white;
+  padding: 10px 0px; }
+
+.breadcrumb {
+  width: 80vw;
+  margin: auto;
+  background-color: white; }
+
+.Opciones__Item {
+  width: 13vw;
+  text-align: left; }
+
+.Banner {
+  width: 99vw;
+  margin: auto;
+  justify-content: center;
+  background-color: black;
+  text-align: center; }
+.Barra-Busqueda{
+  display: flex;
+  justify-content: center;
+  padding: 10px 5%;
+  background-color:  #F9F9F9;
+  }
+  .Barra-Busqueda__Logo{
+    padding: 10px;
+  }
+  .Barra__login{
+    background-color: silver;
+    padding: 10px;
+    margin: auto;
+    
+  }
+  .BoxCarro{ 
+    align-items: center;
+    margin: 10px 20px;}
+  
+  .Barra-Busqueda__Buscador{ 
+    margin: 10px 20px;}
+
+  .BoxLogin{
+    align-content: center;
+  }
+  .BoxLogoUsuario{
+      display: flex;
+      margin: 10px 20px;
+      align-content: center;
+      padding: 0px 5px ;
+      background-color: #c6c6c6;
+      border-radius: 5px 5px 5px 5px;
+    }
+    .LogoUsuario{
+      margin: auto;
+      align-content: center;
+    }
+    .BoxUsuario{
+      display: inline;
+      
+      align-content: center;
+    }
+  .EstiloCredito{
+    background-color: aliceblue;
+    }
+    .EstiloCredito__Reverso{
+      display: flex;
+      justify-content: space-between;
+      }
+      .EstiloCredito__Reverso--Codigo{
+       padding: 5px 5px;
+      }
+      .EstiloCredito__Reverso--Vencimiento{
+        padding: 5px 5px;
+      }
+
+
+.Tienda {
+  display: flex;
+  justify-content: center;
+  padding: 2vw 0vw; }
+  .Tienda__Principal {
+    width: 67vw;
+    padding-left: 1vw;
+    text-align: center; }
+    .Tienda__Principal--Buscador {
+      justify-content: center;
+      padding: 10px; }
+    .Tienda__Principal--Seccion {
+      padding: 3vw 0.7vw;
+      background-color: #F9F9F9; }
+
+.Seccion-Formulario{
+  display: block;
+  width: 35vw; 
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.Pie {
+  background-color: black;
+  justify-items: center; }
+  .Pie__contenido {
+    background-color: black; }
+
+.Columna__Titulo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px; }
+
+.Columna__Subrayado {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 4px;
+  margin-top: 0px; }
+
+.Columna__Logo {
+  width: 105px; }
+
+.Banner__carrusel {
+  width: 75%;
+  margin: auto;
+  padding: 20px 0px; }
+
+.carousel-item__Titulo {
+  margin: auto; }
+  .carousel-item__Titulo--Texto {
+    font-family: "Run";
+    text-shadow: 1px 1px 2px black, 0 0 1em grey, 0 0 0.2em blue; }
+
+.Opciones {
+  margin: auto; }
+  .Opciones:Bordes {
+    margin: auto;
+    margin-bottom: 2px;
+    justify-content: center; }
+
+.Animacion:hover {
+  transform: scale(1.05);
+  box-shadow: none; }
+
+.card__boton:hover {
+  background-color: #f9f9f9; }
+.card__titulo{
+  padding-left: 15px;
+}
+.Opciones__Bordes:hover {
+  border-bottom: solid 2px black; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black; }
+
+
+
+  
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .imgarticulo {
+    width: 40vw; } }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .Encabezado__Nombre {
+    font-family: "Urae_Nium",italic;
+    color: white;
+    font-size: 4em; }
+  .Banner__carrusel {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px; }
+  .Carrousel__Titulo {
+    font-size: 1.2em;
+    font-family: "Run"; }
+  .Opciones__Item {
+    width: 30vw;
+    text-align: left; }
+  .Principal-Articulo {
+    width: 80vw;
+    margin: auto;
+    background-color: #F9F9F9; }
+    .Principal-Articulo__Acceso {
+      display: block;
+      width: 80vw;
+      padding: 2vw 0vw; }
+      .Principal-Articulo__Acceso--Imagen {
+        width: 60vw; }
+      .Principal-Articulo__Acceso--Formulario {
+        width: 80vw; }
+    .Principal-Articulo .Formulario {
+      padding: 0vw 1vw; }
+      .Principal-Articulo .Formulario__Item {
+        width: 50vw;
+        margin: auto;
+        font-size: 1.3em; }
+        .Principal-Articulo .Formulario__Item--caja {
+          width: 50vw; }
+  .Animacion:hover {
+    transform: scale(1); }
+  }

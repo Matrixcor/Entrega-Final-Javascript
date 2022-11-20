@@ -1,0 +1,55 @@
+
+[
+    {
+        "id": "1",
+        "User":"Matrix", 
+        "Contrasena":"1234",
+        "Nombre":"matias", 
+        "Apellido":"Smith",
+        "Documento":"10185638", 
+        "Email":"p@gmail.com", 
+        "DirCalle":"Cucha Cucha", 
+        "DirNumero":"189",
+        "DirLocalidad":"Congreso",
+        "DirProvincia":"Caba"
+    },
+    {
+        "id": "2",
+        "User":"Neo", 
+        "Contrasena":"123",
+        "Nombre":"anderson", 
+        "Apellido":"hendrix",
+        "Documento":"24136220", 
+        "Email":"neo@gmail.com", 
+        "DirCalle":"talcahuano", 
+        "DirNumero":"131",
+        "DirLocalidad":"Villa Maria",
+        "DirProvincia":"Cordoba"
+    },
+    {
+        "id": "3",
+        "User":"morfeo",
+        "Contrasena":"12345",
+        "Nombre":"salvador", 
+        "Apellido":"sion",
+        "Documento":"30144178", 
+        "Email":"morfeo@gmail.com", 
+        "DirCalle":"av Libertador", 
+        "DirNumero":"15",
+        "DirLocalidad":"Capital",
+        "DirProvincia":"Caba"
+    },
+    {
+        "id": "4",
+        "User":"martin", 
+        "Contrasena":"123",
+        "Nombre":"marty", 
+        "Apellido":"mcfly",
+        "Documento":"24136220", 
+        "Email":"f@gmail.com", 
+        "DirCalle":"Nogales", 
+        "DirNumero":"131",
+        "DirLocalidad":"Hill Valley",
+        "DirProvincia":"California"
+    }
+]
